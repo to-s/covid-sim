@@ -22,6 +22,6 @@ jobs:
         ../cmake-3.18.2-Linux-x86_64/bin/cmake ..
         make
     - name: coderrect scan
-      uses: coderrect-inc/coderrect-github-action@v0.3
+      uses: coderrect-inc/coderrect-github-action@v0.4
       with:
         buildPath: "build"
