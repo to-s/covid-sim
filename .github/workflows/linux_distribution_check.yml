@@ -23,3 +23,6 @@ jobs:
         make
     - name: coderrect scan
       uses: coderrect-inc/coderrect-github-action@v0.2
+      with:
+        cleanCommand: "cd build && make clean"
+        buildCommand: "cd build && make -j"
