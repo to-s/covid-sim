@@ -25,3 +25,4 @@ jobs:
       uses: coderrect-inc/coderrect-github-action@v0.5
       with:
         buildPath: "build"
+        exit0: true
